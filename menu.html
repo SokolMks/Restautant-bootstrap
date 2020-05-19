@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bullseye - Menu</title>
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand text-uppercase d-md-none">
+                    <i class="fa fa-bullseye text-danger" aria-hidden="true"></i> Bullseye
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav text-uppercase mx-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link mx-md-1 mx-lg-2 mx-xl-3">Home</a>
+                        </li>
+                        <li class="nav-item"><a href="locations.html"
+                                class="nav-link mx-md-1 mx-lg-2 mx-xl-3">Reservations</a></li>
+                        <li class="nav-item"><a href="menu.html"
+                                class="nav-link mx-md-1 mx-lg-2 mx-xl-3 active">Menu<span
+                                    class="sr-only">(current)</span></a></li>
+                        <li class="nav-item d-none d-md-block"><a href="index.html"
+                                class="navbar-brand mx-md-2 mx-xl-3"><i
+                                    class="fa fa-bullseye text-danger"></i>Bullseye</a></li>
+                        <li class="nav-item"><a href="locations.html"
+                                class="nav-link mx-md-1 mx-lg-2 mx-xl-3">Locations</a></li>
+                        <li class="nav-item"><a href="menu.html" class="nav-link mx-md-1 mx-lg-2 mx-xl-3">Order</a></li>
+                        <li class="nav-item"><a href="rewards.html" class="nav-link mx-md-1 mx-lg-2 mx-xl-3">Rewards</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--End of Navigation-->
+
+
+        <section id="quality-ingredients">
+            <div class="d-flex align-items-center justify-content-center text-light aw-vertical-align">
+                <h1 class="aw-border text-center">Always Fresh Quality Ingredients</h1>
+            </div>
+        </section>
+
+        <section id="menu-items" class="px-4 px-xl-0">
+            <div id="accordion" data-children=".item">
+                <!-- Buttons -->
+                <div class="row my-3 aw-row-override">
+                    <div class="col-6 col-sm-3 col-md-2 p-1">
+                        <button class="btn btn-dark btn-block" type="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#accordionDrinks" aria-expanded="false">Drinks</button>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2 p-1">
+                        <button class="btn btn-dark btn-block" type="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#accordionApp" aria-expanded="false">Appetizers</button>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2 p-1">
+                        <button class="btn btn-dark btn-block" type="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#accordionMeals" aria-expanded="false">Meal Items</button>
+                    </div>
+                    <div class="col-6 col-sm-3 col-md-2 p-1">
+                        <button class="btn btn-dark btn-block" type="button" data-toggle="collapse"
+                            data-parent="#accordion" href="#accordionDesserts" aria-expanded="false">Dessert
+                            Items</button>
+                    </div>
+                </div><!-- End of Buttons -->
+                <!-- Items -->
+                <div class="item">
+                    <div id="accordionDrinks" class="collapse" role="tabpanel">
+                        <div class="row equal-height">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/1-katerina-pavlickova-145039.jpg" alt="Chai Latte"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Chai Latte</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/2-athena-lam-132197.jpg" alt="Traditional Latte"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Traditional Latte</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/3-brandon-morgan-102110.jpg" alt="Special Team Drinks"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Special Team Drinks</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/4-jake-bradley-134654.jpg" alt="Corona Beer"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Corona Beer</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/5-yannis-papanastasopoulos-369985.jpg" alt="My Beer"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">My Beer</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/6-jens-theess-28249.jpg" alt="Mix Drinks" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Mix Drinks</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/7-taylor-grote-327181.jpg" alt="Ice tea" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Ice-Tea</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/8-tomasz-rynkiewicz-91046.jpg" alt="Aperol"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Aperol</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/9-yuanbin-du-87642.jpg" alt="Blue Drink" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Blue Drink</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/10-thomas-martinsen-77457.jpg" alt="White Wines"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">White Wines</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/11-anthony-delanoix-43718.jpg" alt="Champagne"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Champagne</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/drinks/12-alex-holyoake-139902.jpg" alt="Expensive Drink"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Expensive Drink</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, perspiciatis
+                                            error facere dignissimos maxime odit.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="accordionApp" class="collapse" role="tabpanel">
+                        <div class="row equal-height">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/apps/1-herson-rodriguez-96102.jpg" alt="Nachos" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Nachos</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum nisi at enim
+                                            possimus, quia corrupti.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/apps/2-stephanie-mccabe-92136.jpg" alt="Seasoned Fries"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Seasoned Fries</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum nisi at enim
+                                            possimus, quia corrupti.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/apps/3-taylor-kiser-373480.jpg" alt="Greek Salad"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Greek Salad</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum nisi at enim
+                                            possimus, quia corrupti.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/apps/4-brooke-lark-200721.jpg" alt="Large Sampler"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Large Sampler</h4>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum nisi at enim
+                                            possimus, quia corrupti.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="accordionMeals" class="collapse show" role="tabpanel">
+                        <div class="row equal-height">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/1-jimi-filipovski-189721.jpg" alt="Ham Bacon Club"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Ham and Bacon Club</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/2-edward-franklin-72304.jpg" alt="Classic Burger"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Classic Burger</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/3-fabrice-thys-280561.jpg" alt="Bite Burger"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bite Burger</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/4-alex-munsell-18756.jpg" alt="Seasoned Chicken"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Seasoned Chicken</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/5-edward-guk-357344.jpg" alt="Burger XL" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Burger XL</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/6-yanko-peyankov-49164.jpg" alt="West Burger"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">West Burger</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/7-casey-lee-105763.jpg" alt="Cooked Salmon"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Cooked Salmon</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/meals/8-alex-munsell-18753.jpg" alt="Good Steak" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Good Steak</h4>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque optio
+                                            quisquam commodi dolorem illum porro!</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-danger">Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="accordionDesserts" class="collapse" role="tabpanel">
+                        <div class="row equal-height">
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/1-brina-blum-114390.jpg" alt="Cheese Cake"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Cheese Cake</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/2-carissa-gan-66377.jpg" alt="Glazed Cake"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Glazed Cake</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/3-chinh-le-duc-288029.jpg" alt="Mini Cake"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Mini Cake</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/4-joseph-gonzalez-111633.jpg" alt="Sweet Sandwich"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Sweet Sandwich</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/5-madeline-tallman-44555.jpg" alt="Ice-cream"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Ice-cream</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/6-max-panama-387824.jpg" alt="Special Cake"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Special Cake</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/7-mike-pellinni-332505.jpg" alt="Tiramisu"
+                                        class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Tiramisu</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                                <div class="card">
+                                    <img src="img/desserts/8-toa-heftiba-84799.jpg" alt="Brownie" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Brownie</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                                            voluptatibus perspiciatis quo dolorum soluta officia.</p>
+                                    </div>
+                                    <div class="card-footer"><a href="#" class="btn btn-danger">Order</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-light p-3 pt-5">
+            <ul class="list-inline text-uppercase text-center">
+                <li class="list-inline-item mx-3">
+                    <a href="about.html" class="text-danger">About</a>
+                </li>
+                <li class="list-inline-item mx-3"><a href="careers.html" class="text-danger">Careers</a></li>
+                <li class="list-inline-item mx-3"><a href="contact.html" class="text-danger">Contact</a></li>
+                <li class="list-inline-item mx-3"><a href="franchising.html" class="text-danger">Franchising</a></li>
+            </ul>
+
+            <h6 class="pt-3 text-center">Lets Be Friends</h6>
+            <ul class="list-inline text-center">
+                <li class="list-inline-item mx-2">
+                    <a href="https://www.facebook.com" class="text-danger"><i class="fa fa-facebook-square fa-2x"
+                            aria-hidden="true"></i></a>
+                </li>
+                <li class="list-inline-item mx-2"> <a href="https://www.twitter.com" class="text-danger"><i
+                            class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                <li class="list-inline-item mx-2"> <a href="https://www.instagram.com" class="text-danger"><i
+                            class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+        </footer>
+    </div><!-- End of Main Container -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
